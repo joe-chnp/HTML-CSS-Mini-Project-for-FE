@@ -27,7 +27,7 @@
     color: #6F6F76;
 }
 
-button {
+.primary-btn {
     width: 180px;
     height: 70px;
     border: none;
@@ -306,6 +306,59 @@ header {
             width: 453px;
             margin-top: 30px;
             margin-bottom: 50px;
+        }
+    }
+}
+
+.section-3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 97px 5.2% 54px 5.2%;
+    padding: 120px 149px 120px 149px;
+    background-color: #FFFBF4;
+    .cards-container {
+        display: flex;
+        flex-direction: row;
+        gap: 31px;
+        margin-top: 70px;
+        margin-bottom: 60px; 
+        .card {
+            border-radius: 20px;
+            background-color: #FFFFFF;
+            box-shadow: 5px 30px 50px 0px #2B2A2A0D;
+            padding: 24px 30px 30px 30px;
+            width: 453px;
+            .grey-space {
+                background-color: #C4C4C4;
+                width: 393px;
+                height: 280px;
+                border-radius: 20px 20px 0 0;
+            }
+            h1 {
+                font-family: "Poppins";
+                line-height: 34px;
+                margin-top: 24px
+            }
+            p {
+                font-family: "Rubik";
+                color: #6F6F76;
+                line-height: 32px;
+                margin-top: 10px;
+                margin-bottom: 20px;
+            }
+            button {
+                border: none;
+                background-color: #FFFFFF;
+                color: #FFA502;
+                font-family: "Rubik";
+                font-size: 16px;
+                font-weight: 500;
+                line-height: 26px;
+                display: flex;
+                align-items: center;
+                gap: 16px;
+            }
         }
     }
 }
