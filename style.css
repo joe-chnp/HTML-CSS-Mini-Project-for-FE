@@ -34,8 +34,9 @@
 }
 
 .primary-btn {
-    width: 180px;
-    height: 70px;
+    padding: 19px 30px;
+    width: fit-content;
+    height: fit-content;
     border: none;
     border-radius: 15px;
     color: #FFFFFF;
@@ -49,5 +50,4 @@
     .h-1 {
         line-height: 34px;
     }
-    
 } 
