@@ -56,3 +56,29 @@
         }
     }
 }
+
+@media only screen and (max-width: 600px) {
+    .section-4{
+        padding: 80px 6% 19.75px 6%;
+        .header-container {
+            flex-direction: column;
+            gap: 24px;
+            h1 {
+                width: 250px;
+            }
+        }
+        .teachers-container {
+            flex-direction: column;
+            margin-top: 158.15px;
+            gap: 177px;
+            .teacher {
+                .circle {
+                    width: 329.82px;
+                    height: 329.82px;
+                }
+            }
+            
+        }
+    }
+    
+}   
