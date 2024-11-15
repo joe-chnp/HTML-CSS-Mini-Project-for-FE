@@ -523,8 +523,27 @@ header {
         flex-direction: column;
         gap: 30px;
         justify-content: center;
-        
     }
-        
-    
+}
+
+.section-6 {
+    background-color: #2A2A31;
+    padding: 67px 13% 67px 13%;
+    display: flex;
+    gap: 65px;
+    align-items: center;
+    .sign {
+        width: 457.47px;
+        position: relative;
+        h1 {
+            font-family: "Poppins";
+            font-size: 40px;
+            color: #FFFFFF;
+        }
+        svg {
+            position: absolute;
+            right: 0;
+            bottom: 4.47px;
+        }
+    }
 }
