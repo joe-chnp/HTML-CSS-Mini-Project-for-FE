@@ -1,3 +1,9 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
 .rubik {
     font-family: "Rubik", sans-serif;
     font-optical-sizing: auto;
@@ -13,7 +19,7 @@
   
 .h-1 {
     font-family: "Poppins";
-    font-size: 40px;
+    font-size: 1.5rem;
     font-weight: 700;
     line-height: 58px;
     color: #111116;
@@ -37,12 +43,6 @@
     box-shadow: 5px 10px 30px 0px #FFA5024D;
     font-family: "Rubik";
     font-size: 16px;
-}
-
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
 }
 
 header {
@@ -89,6 +89,9 @@ header {
         box-shadow: 0px -10px 20px 0px #585867 inset;
         width: 162px;
         height: 64px;
+    }
+    .category {
+        display: none;
     }
 }
 
@@ -603,3 +606,113 @@ footer {
         line-height: 32px;
     }
 }
+
+@media only screen and (max-width: 600px) {
+    header {
+        padding: 23px 6.4%;
+        .container {
+            .menu {
+                display: none;
+            }
+            svg {
+                width: 59px;
+                height: 33;
+            }
+        }
+        button {
+            display: none;
+        }
+        .category {
+            display: block;
+        }
+    }
+
+    .banner {
+        flex-direction: column-reverse;
+        padding: 54px 6.4% 70px 6.4%;
+        .circle {
+            width: 294.78px;
+            height: 295.25px;
+        }
+        .email-noti {
+            left: -30px;
+            .email-card {
+                border-radius: 8.74px;
+                padding: 14px 11.4px 10.5px 11.4px;
+                width: 88px;
+                .email-icon {
+                    padding: 5.25px;
+                    top: -10.5px;
+                    left: 33.23px;
+                    svg {
+                        width: 10.49px;
+                        height: 10.49px;
+                    }
+                }
+                h3 {
+                    font-size: 7px;
+                    line-height: 10.49px;
+                }
+                p {
+                    font-size: 7px;
+                    line-height: 11.37px;
+                }
+            }
+        }
+        .student-noti {
+            right: -22.56px;
+            .student-card {
+                border-radius: 8.74px;
+                padding: 14px 10.5px;
+                width: 87.44px;
+                .heart-icon {
+                    padding: 5.25px;
+                    top: -10.5px;
+                    left: 33.23px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    svg {
+                        width: 10.49px;
+                        height: 10.49px;
+                    }
+                }
+                h3 {          
+                    font-size: 13.12px;
+                    line-height: 19.67px;
+                }
+                p {
+                    font-size: 7.87px;
+                    line-height: 12.24px;
+                }
+                .students-container {
+                    margin-top: 7px;
+                    .student {
+                        width: 20.26px;
+                        height: 20.26px;
+                        border: 0.18px solid #FFFFFF;
+                    }
+                    .overlap {
+                        margin-left: -5px;
+                    }
+                }
+            }
+        }
+    }
+    .left-side {
+        width: 100%;
+        h1 {
+            font-size: 30px;
+            line-height: 40px;
+        }
+        p {
+            width: 100%;
+            margin-top: 16px;
+            margin-bottom: 30px;
+        }
+    }
+    .section-1, .section-2, .section-3, .section-4, .section-5, .section-6, footer{
+        display: none;
+    }
+    
+}   
