@@ -101,3 +101,43 @@
         justify-content: center;
     }
 }
+@media only screen and (max-width: 600px) {
+    .section-5{
+        flex-direction: column-reverse;
+        margin: 60.25px 6.4% 79.75px 6.4% ;
+        gap: 40px;
+        .description {
+            width: 100%;
+            gap: 16px;
+        }
+        .cards-container {
+            height: 662px;
+            width: 100%;
+        }
+        .card {
+            padding: 30px;
+            width: 327px;
+        }
+        .active {
+            left: 0;
+        }
+        .inactive {
+            left: -14px;
+    
+        }
+        .card-header {
+            flex-direction: column;
+            align-items: start;
+            gap: 16px;
+        }
+        .arrow-btn {
+            right: -14px;
+            bottom: 43px;
+            .arrow {
+                width: 32px;
+                height: 32px;
+            }
+        }
+    }
+    
+}   
