@@ -53,3 +53,34 @@ footer {
         line-height: 32px;
     }
 }
+
+@media only screen and (max-width: 600px) {
+    footer{
+        padding: 80px 6.4% 7.63px 6.4%;
+        .upper-section {
+            flex-direction: column;
+            .first-column {
+                .icons-container {
+                    display: none;
+                }
+                .mobile-layout {
+                    display: block;
+                }
+                a {
+                    margin-bottom: 30px;
+                }
+            }
+            .column {
+                margin-bottom: 24px;
+            }
+            .contacts {
+                margin-bottom: 30px;
+            }
+            
+        }
+        hr {
+            margin-top: 40px;
+        }
+    }
+    
+}   
