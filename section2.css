@@ -47,3 +47,44 @@
         }
     }
 }
+
+@media only screen and (max-width: 600px) {
+    .section-2 {
+        flex-direction: column;
+        padding: 0;
+        margin: 0;
+        .left-side {
+            margin: 33px 9.5px 0 20px;
+            width: 344.9px;
+            height: 326.28px;
+
+            .blue-circle {
+                width: 296.34px;
+                height: 296.34px;
+            }
+            .yellow-circle {
+                width: 233.87px;
+                height: 233.87px;
+            }
+            .play-circle {
+                width: 61.95px;
+                height: 61.95px;
+                bottom: 75.44px;
+                right: 20.41px;
+                svg {
+                    width: 16.52px;
+                    height: 16px;
+                }
+            }
+        }
+        .right-side {
+            padding: 44.46px 24px 80.15px 24px;
+            p {
+                width: 100%;
+                margin-top: 16px;
+                margin-bottom: 30px;
+            }
+        }
+    }
+    
+}   
