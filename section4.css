@@ -1,0 +1,58 @@
+.section-4 {
+    padding: 96px 13% 85px 13%;
+    .header-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        h1 {
+            width: 400px;
+        }
+    }
+    .teachers-container {
+        margin-top: 213px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 83px;
+        .teacher {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            .circle {
+                border-radius: 1000px;
+                width: 394.86px;
+                height: 394.86px;
+            }
+            .purple-bg {
+                background-color: #D9D1FB;
+            }
+            .green-bg {
+                background-color: #9BF5CB;
+            }
+            .orange-bg {
+                background-color: #FEC6A2;
+            }
+            h1 {
+                font-family: "Poppins";
+                font-size: 28px;
+                font-weight: 700;
+                line-height: 34px;
+                color: #3B3B3B;
+                margin-top: 34px;
+            }
+            p {
+                font-family: "Rubik";
+                font-size: 18px;
+                font-weight: 400;
+                line-height: 32px;
+                color: #6F6F76;
+                margin-top: 6px;
+            }
+            .icons-container {
+                margin-top: 20px;
+                display: flex;
+                gap: 16px;
+            }
+        }
+    }
+}

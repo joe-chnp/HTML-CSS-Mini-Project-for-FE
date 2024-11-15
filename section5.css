@@ -1,0 +1,103 @@
+.section-5 {
+    margin: 50.65px 13% 347px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    .cards-container {
+        position: relative;
+        height: 490px;
+        width: 816.27px;
+    }
+    .card {
+        width: 695.27px;
+        border-radius: 18.17px;
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+        padding: 48.45px 48.45px 40.34px 48.45px;
+    }
+    .active {
+        background-color: #FFA502;
+        box-shadow: -10px 20px 40px 0px #FFA50266;
+        color: #FFFFFF;
+        position: absolute;
+        left: 121px;
+        z-index: 1;
+    }
+    .inactive {
+        background-color: #FFFFFF;
+        box-shadow: 0px 15px 35px 0px #0000000D;
+        color: #6F6F76;
+        position: absolute;
+        bottom: 0;
+    }
+    .card-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .profile {
+            display: flex;
+            align-items: center;
+            gap: 19px;
+            .display {
+                background-color: #C4C4C4;
+                width: 87.21px;
+                height: 87.21px;
+                border-radius: 100px;
+            }
+            .detail {
+                h1 {
+                    font-family: "Poppins";
+                    font-weight: 700;
+                    font-size: 24px;
+                    line-height: 29px;
+                    letter-spacing: 0.24px;
+                }
+                h2 {
+                    font-family: "Rubik";
+                    font-weight: 400;
+                    font-size: 19px;
+                    line-height: 34px;
+                }
+            }
+        }
+    }
+    .review {
+        font-family: "Rubik";
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 48px;
+    }
+    .arrow-btn {
+        display: flex;
+        gap: 24px;
+        position: absolute;
+        right: 32.27px;
+        bottom: 50px;
+        .arrow {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 56px;
+            height: 56px;
+            border-radius: 50px;
+            border: 2px solid #111116;
+            background-color: white;
+        }
+        .right {
+            transform: rotate(180deg);
+            background-color: #111116;
+            box-shadow: 0px -10px 20px 0px #585867 inset;
+            svg path {
+                fill: white;
+            }
+        }
+    }
+    .description {
+        width: 453px;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        justify-content: center;
+    }
+}

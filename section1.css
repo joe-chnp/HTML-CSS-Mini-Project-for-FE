@@ -1,0 +1,23 @@
+.section-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 73px;
+    padding: 77px 13% 70px 13%;
+    gap: 40px;
+    .logos-container {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        img{
+            padding: 10px 17px 5px 17px;
+            height: fit-content;
+        }
+        img:hover {
+            border-radius: 20px;
+            box-shadow: 5px 30px 60px 0px #5555551A;
+        }
+    }
+}

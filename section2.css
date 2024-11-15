@@ -1,0 +1,49 @@
+.section-2 {
+    margin-top: 77px;
+    padding: 63px 13% 81px 13%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    .left-side {
+        width: 668.06px;
+        height: 632px;
+        position: relative;
+        .blue-circle {
+            width: 574px;
+            height: 574px;
+            background-color: #D4EFF6;
+            border-radius: 1000px;
+            position: absolute;
+            bottom: 0;
+        }
+        .yellow-circle {
+            width: 453px;
+            height: 453px;
+            background-color: #FEE095;
+            border-radius: 1000px;
+            position: absolute;
+            right: 0;
+        }
+        .play-circle {
+            width: 120px;
+            height: 120px;
+            background-color: #FFFFFF;
+            border-radius: 200px;
+            box-shadow: 5px 30px 50px 0px #2B2A2A0D;
+            position: absolute;
+            right: 40px;
+            bottom: 147px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    }
+    .right-side {
+        p {
+            width: 453px;
+            margin-top: 30px;
+            margin-bottom: 50px;
+        }
+    }
+}
